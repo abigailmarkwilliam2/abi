@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logo{
+    color: chocolate;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+body{
+ background-image: url("b.jpg");
+}
+.menu{
+    width: 300px;
+    float: right;
+    height: 70px;   
+}
+ul{
+    float: right;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: arial;
+    font-weight:bold;
+    transition: 1.5s ease-out; 
+}
+ul li a:hover{
+    color:chocolate ;
+}
+.search{
+    width: 50px;
+    float: right;
+    margin-left: 150px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 600px;
+    height: 40px;
+    background: transparent;
+    border-radius: 20px;
+    border-color: chocolate;
+    margin-top: 250px;
+    align-items: center;
+    color: #fff;
+}
+.form{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: 200px;
+    left: 890px;
+    border-radius: 10px;
+    margin-bottom: 200px;
+    margin-left: 130px;
+}
+.form h2{
+    color: #fff;   
+    background-color: chocolate;
+    border-radius: 40px;
+    text-align: center ;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+.form input{
+    background: transparent;
+    color: #fff;  
+    border-radius: 40px;
+    border-color: chocolate;
+    border-left: none;
+    border-right: none;
+    margin: 10px;
+    padding: 8px;
+}
+.form p {
+    color: #fff;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+.form a{
+    text-align: center;
+    border-radius: 40px;
+    border-color: chocolate;
+    padding: 15px;
+    background-color: white;
+    color: chocolate; 
+    margin: 60px;
+    font-family: 'Times New Roman';  
+    font-weight:bold;
+    transition: 2s ease-in; 
+}
